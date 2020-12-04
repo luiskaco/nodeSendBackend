@@ -1,0 +1,54 @@
+| Primer Paso crar el package json 
+
+npm init
+
+nota: Creamos la base del proyecto
+
+| Instalando un servidor
+
+npm i express
+
+| Instalando dependencias de desarrlollo nodemon
+
+npm i --save-dev nodemon
+
+nota: Ayuda a reinicar el servidor al detectar un cambio. 
+
+| Arrancar servidor
+    "scripts": {
+        "dev": "nodemon ./index.js", 
+        "start": "node ./index.js"
+    },
+
+    nota: Añadidos.
+
+
+| Dependencia para la BD 
+    ORM : npm i mongoose
+    ENV : npm i dotenv
+
+
+| Dependencia para hash los password
+npm i bcrypt
+
+| Dependencia de validacion
+npm i express-validator
+
+
+|Dependencia para crear Json web token
+npm i jsonwebtoken
+
+
+| Para Debugear
+https://jwt.io/#debugger-io
+
+! Dependencia para generar ids cortos
+npm i shortid
+
+| instalando dependencia para la subida de archivos. 
+npm i multer
+
+nota: Permite subir archivos
+
+| Instalando cors para permitir conexiones de otros origines
+npm i cors 
